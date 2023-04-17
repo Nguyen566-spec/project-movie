@@ -14,7 +14,7 @@ const Login = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   if (user) {
-    return <Navigate to={"/home"} />;
+    return <Navigate to={"/"} />;
   }
   return (
     <div className="container mx-auto">
